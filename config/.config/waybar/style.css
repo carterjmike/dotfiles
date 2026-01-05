@@ -1,0 +1,63 @@
+@define-color bg        #090e13;
+@define-color fg        #c5c9c7;
+@define-color orn       #c4746e;
+@define-color blu       #7fb4ca;
+@define-color red       #e46876;
+@define-color white     #a4a7a4;
+
+* {
+    font-family: "CommitMono Nerd Font", monospace;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: @bg;
+    color: @fg;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: @orn;
+    border-bottom: 3px solid @bg;
+}
+
+#workspaces button.active {
+    color: @orn;
+    border-bottom: 3px solid @blu;
+}
+
+#workspaces button.hidden {
+    color: @white;
+}
+
+#workspaces button.hidden.active {
+    color: @orn;
+    border-bottom: 3px solid @blu;
+}
+
+#workspaces button.urgent {
+    background-color: @red;
+}
+
+
+#clock,
+#custom-sep,
+#battery,
+#tray {
+    padding: 0 8px;
+    color: @white;
+}
+
+#battery {
+    color: @white;
+}
+
+#custom-sep {
+    color: @white;
+}
+
+#clock {
+    color: @white;
+}
