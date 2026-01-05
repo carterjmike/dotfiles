@@ -1,0 +1,46 @@
+{
+  "modules-left": [
+    "ext/workspaces",
+    //"dwl/tags",
+    "dwl/window",
+  ],
+  "modules-center": ["clock"],
+  "modules-right": ["tray", "custom/sep", "battery"],
+
+  //modules-left
+  "ext/workspaces": {
+    "format": "{icon}",
+    "ignore-hidden": false,
+    "sort-by-id": true,
+  },
+  "dwl/tags": {
+    "num-tags": 9,
+  },
+  "dwl/window": {
+    "format": "{title}",
+  },
+
+  //modules-center
+  "clock": {
+    "format": "[{%y-%m-%d}]  [%H:%M]",
+  },
+
+  //modules-right
+  "tray": {
+    "icon-size": 16,
+    "spacing": 5,
+  },
+  "custom/sep": {
+    "format": "|",
+    "tooltip": false,
+  },
+  "battery": {
+    "bat": "BAT0",
+    "interval": 60,
+    "states": {
+      "warning": 30,
+      "critical": 10,
+    },
+    "format": "{icon} {capacity}%",
+  },
+}
