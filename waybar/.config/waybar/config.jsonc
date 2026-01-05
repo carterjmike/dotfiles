@@ -5,12 +5,12 @@
     "dwl/window",
   ],
   "modules-center": [
-    "clock"
+    "clock",
   ],
   "modules-right": [
     "tray",
     "custom/sep",
-    "battery"
+    "battery",
   ],
 
   //modules-left
@@ -29,9 +29,8 @@
   //modules-center
   "clock": {
     "interval": 60,
-    "format": "[{%y-%m-%d}]  [{%H:%M}]",
+    "format": "{:%Y-%m-%d  %H:%M}",
   },
-
   //modules-right
   "tray": {
     "icon-size": 16,
