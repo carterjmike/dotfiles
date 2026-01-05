@@ -4,8 +4,14 @@
     //"dwl/tags",
     "dwl/window",
   ],
-  "modules-center": ["clock"],
-  "modules-right": ["tray", "custom/sep", "battery"],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "tray",
+    "custom/sep",
+    "battery"
+  ],
 
   //modules-left
   "ext/workspaces": {
@@ -22,7 +28,8 @@
 
   //modules-center
   "clock": {
-    "format": "[{%y-%m-%d}]  [%H:%M]",
+    "interval": 60,
+    "format": "[{%y-%m-%d}]  [{%H:%M}]",
   },
 
   //modules-right
