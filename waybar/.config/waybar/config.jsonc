@@ -37,11 +37,12 @@
     "spacing": 5,
   },
   "custom/sep": {
+    "exec-if": "test -e /sys/class/power_supply/BAT0",
     "format": "|",
     "tooltip": false,
   },
   "battery": {
-    "bat": "BAT0",
+    "exec-if": "test -e /sys/class/power_supply/BAT0",
     "interval": 60,
     "states": {
       "warning": 30,

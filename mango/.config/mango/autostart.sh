@@ -2,12 +2,12 @@
 
 set +e
 
-dbus-update-activation-environment --all 2>&1 > /dev/null &
+dbus-update-activation-environment --all > /dev/null 2>&1 &
 
-waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css 2>&1 > /dev/null & 
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css > /dev/null 2>&1 & 
 
-nm-applet --indicator 2>&1 > /dev/null &
+nm-applet --indicator > /dev/null 2>&1 &
 
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 2>&1 > /dev/null &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 > /dev/null 2>&1 &
 
-gnome-keyring-daemon --start --components=secret 2>&1 > /dev/null &
+gnome-keyring-daemon --start --components=secret > /dev/null 2>&1 &
