@@ -19,5 +19,5 @@ if [ -d "$HOME/.local/bin" ]; then
 fi
 
 # bob as neovim manager
-. "$HOME/.local/share/bob/env/env.sh"
+#. "$HOME/.local/share/bob/env/env.sh"
 

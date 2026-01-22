@@ -2,6 +2,8 @@
 
 set +e
 
+kanshi > /dev/null 2>&1 &
+
 dbus-update-activation-environment --all > /dev/null 2>&1 &
 
 waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css > /dev/null 2>&1 & 

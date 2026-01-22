@@ -1,38 +1,38 @@
 {
-    "workbench.colorTheme": "Kanso Ink",
-    "telemetry.telemetryLevel": "off",
-    "editor.fontFamily": "'CommitMono Nerd Font', monospace",
-    "editor.fontSize": 15,
-    "editor.wordWrap": "bounded",
-    "editor.rulers": [80],
-    "window.restoreWindows": "none",
-    //"window.zoomLevel": 0,
-    "console.fontFamily": "'CommitMono Nerd Font', 'monospace",
-    "console.fontSize": 14,
-    "debug.console.fontSize": 13,
-    "latex-workshop.latex.autoBuild.run": "never",
-    "latex-workshop.latex.autoClean.run": "onSucceeded",
-    "git.openAfterClone": "always",
-    "positron.plots.darkFilter": "off",
-    "files.associations": {
-        "renv.lock": "json"
-    },
-    "[r]": {
-        "editor.formatOnType": true,
-        "editor.tabSize": 2,
-        "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",<>/?",
-        "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
-        "editor.defaultFormatter": "Posit.air-vscode",
-        "editor.wordBasedSuggestions": "off"
-    },
-    "[python]": {
-        "diffEditor.ignoreTrimWhitespace": false,
-        "editor.defaultColorDecorators": "never",
-        "editor.wordBasedSuggestions": "off"
-    },
-    "python.enableAutoReload": false,
-    "terminal.integrated.enablePersistentSessions": false,
-    "editor.suggest.showWords": false,
-    "editor.renderWhitespace": "all",
-    "workbench.editor.empty.hint": "hidden",
+  "workbench.colorTheme": "Kanagawa Dragon",
+  "telemetry.telemetryLevel": "off",
+  "editor.fontFamily": "'Agave Nerd Font Mono', monospace",
+  "editor.fontSize": 16,
+  "editor.wordWrap": "bounded",
+  "editor.rulers": [80],
+  "window.restoreWindows": "none",
+  "window.zoomLevel": 0,
+  "console.fontFamily": "smonospace",
+  "console.fontSize": 14,
+  "debug.console.fontSize": 13,
+  "latex-workshop.latex.autoBuild.run": "never",
+  "latex-workshop.latex.autoClean.run": "onSucceeded",
+  "git.openAfterClone": "always",
+  "positron.plots.darkFilter": "off",
+  "files.associations": {
+    "renv.lock": "json"
+  },
+  "[r]": {
+    "editor.formatOnType": true,
+    "editor.tabSize": 2,
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",<>/?",
+    "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
+    "editor.defaultFormatter": "Posit.air-vscode",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultColorDecorators": "never",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "python.enableAutoReload": false,
+  "terminal.integrated.enablePersistentSessions": false,
+  "editor.suggest.showWords": false,
+  "editor.renderWhitespace": "all",
+  "workbench.editor.empty.hint": "hidden"
 }
