@@ -1,9 +1,9 @@
-#| SETTINGS ----
+# SETTINGS ----
 options(scipen = 999)
 options(es.use_symbols = TRUE)
 
 
-#| FUNCTIONS ----
+# FUNCTIONS ----
 ##| update packages using {pak}
 libupdate <- function() {
   pak::pkg_install(as.data.frame(
@@ -11,8 +11,8 @@ libupdate <- function() {
     upgrade = TRUE)
 }
 
-##| core libraries (min and full options) used in lab projects
-##| within {renv}
+## core libraries (min and full options) used in lab projects
+## within {renv}
 renv_min <- function() {
   renv::init(restart = FALSE)
   renv::install(
@@ -52,8 +52,8 @@ renv_full <- function() {
   renv::snapshot()
 }
 
-##| mixed / contaminated normal distribution
-##| credit: Rand Wilcox
+## mixed / contaminated normal distribution
+## credit: Rand Wilcox
 cnorm <- function(n, epsilon = .1, k = 10){
   #
   # generate n observations from a contaminated normal

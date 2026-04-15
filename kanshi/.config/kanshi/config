@@ -1,4 +1,0 @@
-profile {
-	output eDP-1 position 0,960 mode 1920x1200@60.00 scale 1.00 transform normal
-	output DP-1 position 1920,0 mode 3840x2160@60.00 scale 1.00 transform normal
-}
