@@ -7,7 +7,5 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-[ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
-
 export EDITOR="nvim"
 export RIG_PLATFORM="ubuntu-24.04"
